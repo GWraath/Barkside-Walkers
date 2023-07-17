@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState } from 'react';
-import DebtHome from './pages/DebtHome'
+import DebtHome from './pages/ApptHome'
 import PNF from './pages/PNF';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './NavBar';
@@ -9,7 +9,7 @@ import Login from './pages/Login';
 import { Profile } from './pages/Profile';
 import PageNotAllowed from './pages/PNA';
 import Theme from './prop-components/Theme';
-import { DebtNew } from './pages/DebtNew';
+import { DebtNew } from './pages/ApptNew';
 
 export const DebtContext = React.createContext();
 export const UsersContext = React.createContext();
